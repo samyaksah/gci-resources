@@ -71,10 +71,10 @@ function setupEmailGuide(){
 // GCI HOMEPAGE ROUTING
 function instituteHome(){
  document.body.classList.add('institute-home');isLibrary=false;
- app.innerHTML=`<section class="institute-carousel" aria-label="GCI highlights" aria-roledescription="carousel" tabindex="0"><div class="carousel-slide institute-hero" data-slide="0" role="group" aria-roledescription="slide" aria-label="1 of 2: Advancing research"><div class="institute-hero-copy"><h1>Advancing research<br>to build a future <em>free</em><br>from gynecologic<br>cancers</h1><a class="home-yellow-button" href="https://gynecancerinitiative.ca/vision-and-mission/">ABOUT THE GCI</a></div></div><div class="carousel-slide institute-hero resources-hero" data-slide="1" role="group" aria-roledescription="slide" aria-label="2 of 2: GCI Resources" hidden><div class="resource-slide-visual" aria-hidden="true"><span>GCI RESOURCES</span><strong>Cancer information<br>and support,<br>tailored to you.</strong><p>Selected for your situation.</p></div><div class="institute-hero-copy"><div class="eyebrow">GCI RESOURCES</div><h2>Cancer information and support,<br>tailored to <em>you.</em></h2><p>Tell us about your current situation and what you’d like help with. We’ll bring together relevant information and support resources in a personalized guide you can save and return to anytime.</p><a class="home-yellow-button" href="#quiz">CREATE MY PERSONALIZED GUIDE →</a><a class="carousel-library-link" href="#library">Browse all resources →</a></div></div><div class="carousel-controls"><button type="button" class="carousel-arrow" id="carouselPrev" aria-label="Previous slide">←</button><div class="carousel-dots" role="group" aria-label="Choose a slide"><button type="button" data-slide-to="0" aria-label="Show research slide" aria-current="true"></button><button type="button" data-slide-to="1" aria-label="Show resources slide" aria-current="false"></button></div><span id="carouselStatus" class="carousel-status" aria-live="polite" aria-atomic="true">1 / 2</span><button type="button" class="carousel-arrow" id="carouselNext" aria-label="Next slide">→</button></div></section>
+ app.innerHTML=`<section class="institute-carousel" aria-label="GCI highlights" aria-roledescription="carousel" tabindex="0"><div class="carousel-slide institute-hero" data-slide="0" role="group" aria-roledescription="slide" aria-label="1 of 2: Advancing research"><div class="institute-hero-copy"><h1>Advancing research<br>to build a future <em>free</em><br>from gynecologic<br>cancers</h1><a class="home-yellow-button" href="https://gynecancerinitiative.ca/vision-and-mission/">ABOUT THE GCI</a></div></div><div class="carousel-slide institute-hero resources-hero" data-slide="1" role="group" aria-roledescription="slide" aria-label="2 of 2: GCI Resources" hidden><div class="institute-hero-copy"><div class="eyebrow">GCI RESOURCES</div><h2>Cancer information and support,<br>tailored to <em>you.</em></h2><p>Tell us about your current situation and what you’d like help with. We’ll bring together relevant information and support resources in a personalized guide you can save and return to anytime.</p><a class="home-yellow-button" href="#quiz">CREATE MY PERSONALIZED GUIDE →</a><a class="carousel-library-link" href="#library">Browse all resources →</a></div></div><div class="carousel-controls"><button type="button" class="carousel-arrow" id="carouselPrev" aria-label="Previous slide">←</button><div class="carousel-dots" role="group" aria-label="Choose a slide"><button type="button" data-slide-to="0" aria-label="Show research slide" aria-current="true"></button><button type="button" data-slide-to="1" aria-label="Show resources slide" aria-current="false"></button></div><span id="carouselStatus" class="carousel-status" aria-live="polite" aria-atomic="true">1 / 2</span><button type="button" class="carousel-arrow" id="carouselNext" aria-label="Next slide">→</button></div></section>
  <div class="institute-content"><section class="home-highlights" aria-label="GCI statistics, sample figures for this prototype"><div class="stat-card"><strong>$125M</strong><span>In grants funded since<br>2019</span></div><div class="stat-card"><strong>85</strong><span>Members</span></div><div class="stat-card"><strong>24</strong><span>International<br>Partnerships</span></div><div class="stat-card"><strong>125,000+</strong><span>Citations since 2019</span></div></section><p class="stats-demo-note">Sample figures for design demonstration.</p>
 
- <section class="home-resource-cta" id="patient-resources"><div class="cta-visual guide-example" aria-label="Example of how answers create a personalized resource guide"><span class="cta-kicker">HOW YOUR GUIDE COMES TOGETHER</span><div class="example-step"><span class="example-number">1</span><div><h3>You tell us what you need</h3><p>Example answers</p><div class="example-tags"><span>Finished treatment</span><span>Low energy</span><span>Returning to work</span></div></div></div><div class="example-connector" aria-hidden="true">↓</div><div class="example-guide"><div class="example-guide-heading"><span class="example-number">2</span><h3>We match relevant resources</h3></div><div class="example-resource"><span class="example-icon" aria-hidden="true">☀</span><div><strong>Cancer-related fatigue</strong><span>Selected for your energy concerns</span></div></div><div class="example-resource"><span class="example-icon" aria-hidden="true">↗</span><div><strong>Returning to work</strong><span>Support for your next stage</span></div></div><div class="example-resource"><span class="example-icon" aria-hidden="true">✓</span><div><strong>Follow-up care</strong><span>Information for life after treatment</span></div></div></div><p class="example-caption">Illustrative guide · Your resources reflect your answers</p></div><div class="cta-copy"><div class="eyebrow">FOR PATIENTS & FAMILIES</div><h2>Cancer information and support,<br>tailored to you.</h2><p>Whether you’re newly diagnosed, receiving treatment, living beyond cancer, or supporting someone, your questions and needs are personal.</p><p>Tell us about your current situation and what you’d like help with. We’ll bring together relevant information and support resources in a personalized guide you can save and return to anytime.</p><a class="home-yellow-button" href="#quiz">Create my personalized guide <span>→</span></a><a class="home-text-link" href="#library">Or browse all resources <span>→</span></a></div></section>
+ <section class="home-resource-cta" id="patient-resources"><div class="cta-photo"><img src="assets/gci-resources-section.webp" alt="A woman reviewing information on a tablet at her table" loading="lazy" width="1536" height="1024"></div><div class="cta-copy"><div class="eyebrow">FOR PATIENTS & FAMILIES</div><h2>Cancer information and support,<br>tailored to you.</h2><p>Whether you’re newly diagnosed, receiving treatment, living beyond cancer, or supporting someone, your questions and needs are personal.</p><p>Tell us about your current situation and what you’d like help with. We’ll bring together relevant information and support resources in a personalized guide you can save and return to anytime.</p><a class="home-yellow-button" href="#quiz">Create my personalized guide <span>→</span></a><a class="home-text-link" href="#library">Or browse all resources <span>→</span></a></div></section>
  <section class="home-editorial"><div><h2>Research that puts people at the centre.</h2><p>Explore GCI’s work in gynecologic cancer research, and discover ways to learn, connect, and get involved.</p><a class="home-text-link" href="https://gynecancerinitiative.ca/vision-and-mission/">About us <span>↗</span></a></div><img src="https://gynecancerinitiative.ca/wp-content/uploads/2020/09/pexels-tristan-le-1653898-1-1.jpg" alt="A peaceful outdoor landscape" loading="lazy"></section>
  <section class="home-editorial"><div><h2>We accelerate research on prevention, detection, treatment and survivorship.</h2><p>Learn about research projects and the people working to improve life with and beyond gynecologic cancer.</p><a class="home-text-link" href="https://gynecancerinitiative.ca/our-projects-test-block/">Explore our research <span>↗</span></a></div><div class="home-research-art" aria-hidden="true"><div class="science-ring ring-one"></div><div class="science-ring ring-two"></div><div class="science-ring ring-three"></div><span>Discovery.<br>Care.<br>Progress.</span></div></section>
  <section class="home-editorial reverse"><div><h2>Explore the GCI Learning Hub</h2><p>Find learning opportunities and information for researchers, care teams, and our wider community.</p><a class="home-text-link" href="https://gynecancerinitiative.ca/knowledge-hub/">Explore the learning hub <span>↗</span></a></div><img src="https://gynecancerinitiative.ca/wp-content/uploads/2020/09/pexels-gustavo-fring-4173083.jpg" alt="Healthcare professionals working together" loading="lazy"></section>
@@ -88,38 +88,34 @@ function initHomeCarousel(){
  const slides=Array.from(carousel.querySelectorAll('[data-slide]'));
  const dots=Array.from(carousel.querySelectorAll('[data-slide-to]'));
  const status=carousel.querySelector('#carouselStatus');
- let active=0, hovered=false, focused=false;
- let paused=window.matchMedia('(prefers-reduced-motion: reduce)').matches;
- const toggle=document.createElement('button');
- toggle.type='button';toggle.className='carousel-arrow';
- toggle.style.width='auto';toggle.style.padding='0 12px';toggle.style.fontSize='12px';
- carousel.querySelector('.carousel-controls').appendChild(toggle);
- function updatePlayback(){
-   toggle.textContent=paused?'Play':'Pause';
-   toggle.setAttribute('aria-label',paused?'Start automatic slide rotation':'Pause automatic slide rotation');
-   status.setAttribute('aria-live',paused||hovered||focused?'polite':'off');
- }
+ const track=document.createElement('div');
+ track.className='carousel-track';
+ track.style.transition='transform 1200ms cubic-bezier(.4,0,.2,1)';
+ carousel.insertBefore(track,slides[0]);
+ slides.forEach(slide=>{slide.hidden=false;track.appendChild(slide)});
+ let active=0,hovered=false,focused=false,lastChange=Date.now();
+ function updateStatus(){status.setAttribute('aria-live',hovered||focused?'polite':'off')}
  function showSlide(index){
    active=(index+slides.length)%slides.length;
-   slides.forEach((slide,i)=>{slide.hidden=i!==active});
+   track.style.transform=`translateX(-${active*100}%)`;
+   slides.forEach((slide,i)=>{slide.inert=i!==active;slide.setAttribute('aria-hidden',String(i!==active))});
    dots.forEach((dot,i)=>dot.setAttribute('aria-current',String(i===active)));
    status.textContent=`${active+1} / ${slides.length}`;
+   lastChange=Date.now();
  }
- function manualSlide(index){paused=true;updatePlayback();showSlide(index)}
- carousel.querySelector('#carouselPrev').onclick=()=>manualSlide(active-1);
- carousel.querySelector('#carouselNext').onclick=()=>manualSlide(active+1);
- dots.forEach((dot,i)=>dot.onclick=()=>manualSlide(i));
- carousel.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();manualSlide(active+(e.key==='ArrowRight'?1:-1))}});
- carousel.addEventListener('mouseenter',()=>{hovered=true;updatePlayback()});
- carousel.addEventListener('mouseleave',()=>{hovered=false;updatePlayback()});
- carousel.addEventListener('focusin',()=>{focused=true;updatePlayback()});
- carousel.addEventListener('focusout',e=>{focused=carousel.contains(e.relatedTarget);updatePlayback()});
- toggle.onclick=()=>{paused=!paused;toggle.blur();focused=carousel.contains(document.activeElement);updatePlayback()};
- updatePlayback();
+ carousel.querySelector('#carouselPrev').onclick=()=>showSlide(active-1);
+ carousel.querySelector('#carouselNext').onclick=()=>showSlide(active+1);
+ dots.forEach((dot,i)=>dot.onclick=()=>showSlide(i));
+ carousel.addEventListener('keydown',e=>{if(e.key==='ArrowLeft'||e.key==='ArrowRight'){e.preventDefault();showSlide(active+(e.key==='ArrowRight'?1:-1))}});
+ 
+ 
+ carousel.addEventListener('focusin',e=>{focused=!!e.target.closest('a,button,input');updateStatus()});
+ carousel.addEventListener('focusout',e=>{focused=!!(e.relatedTarget&&carousel.contains(e.relatedTarget)&&e.relatedTarget.closest('a,button,input'));lastChange=Date.now();updateStatus()});
+ showSlide(0);updateStatus();
  const timer=setInterval(()=>{
    if(!carousel.isConnected){clearInterval(timer);return}
-   if(!paused&&!hovered&&!focused&&!document.hidden)showSlide(active+1);
- },6000);
+   if(!focused)showSlide(active+1);
+ },3000);
 }
 
 function startPersonalGuide(){
